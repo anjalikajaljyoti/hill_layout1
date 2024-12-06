@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+    /* background: url("https://www.google.com/imgres?q=hills&imgurl=https%3A%2F%2Fs7ap1.scene7.com%2Fis%2Fimage%2Fincredibleindia%2Fnandi-hills-bangalore-karnataka-1-attr-hero%3Fqlt%3D82%26ts%3D1726718694219&imgrefurl=https%3A%2F%2Fwww.incredibleindia.gov.in%2Fen%2Fkarnataka%2Fbengaluru%2Fnandi-hills&docid=zf-NUTNqutXIEM&tbnid=33ezKZUlSzmzQM&vet=12ahUKEwi8ouOt95CKAxVZrlYBHRQAELIQM3oFCIABEAA..i&w=1280&h=720&hcb=2&ved=2ahUKEwi8ouOt95CKAxVZrlYBHRQAELIQM3oFCIABEAA");
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: black;
+}
+.container {
+  display: flex;
+  margin: 25px;
+}
+
+.left-img img {
+  border-radius: 20px;
+  height: 670px;
+  width: 500px;
+}
+
+.all-content {
+  /* border: 2px solid black; */
+  margin-left: 35px;
+}
+
+.description {
+  border: 2px solid black;
+  height: 190px;
+  width: 920px;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.description h1,
+p {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.imgs {
+  /* border: 2px solid red; */
+  display: flex;
+  height: 215px;
+  width: 920px;
+  margin-top: 30px;
+  border-radius: 20px;
+  justify-content: space-between;
+}
+
+.imgs img {
+  border-radius: 20px;
+  height: 215px;
+  width: 450px;
+}
+.form-grp {
+  background-color: white;
+  /* border: 2px solid rgb(0, 255, 102); */
+  width: 920px;
+  height: 170px;
+  margin-top: 30px;
+  padding-top: 20px;
+  border-radius: 20px;
+  /* display: flex; */
+  text-align: center;
+}
+
+.form-grp h2 {
+  margin-left: 20px;
+}
+
+.form1 {
+  display: flex;
+  flex-direction: column;
+  /* margin: auto; */
+  /* padding: 0px auto; */
+}
+
+.form1 div {
+  display: flex;
+  padding-left: 129px;
+}
+input {
+  display: flex;
+  height: 35px;
+  width: 300px;
+  background-color: rgb(220, 220, 220);
+  border: 1px solid rgb(220, 220, 220);
+  border-radius: 5px;
+  padding-left: 15px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+button {
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  height: 35px;
+  width: 650px;
+  margin-left: 150px;
+  border-radius: 5px;
+  border: 1px solid rgb(220, 220, 220);
+  background-color: rgb(244, 171, 35);
+}
+
